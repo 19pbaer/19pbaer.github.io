@@ -1,0 +1,132 @@
+body {
+	background-color: #6b545400;
+	color: rgb(247, 53, 53);
+	background: linear-gradient(125deg, #6d6d6d, #241f1f);
+}
+#wrapper {
+	width: 80%;
+	min-width: 960px;
+	max-width: 2048px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 3px 3px 3px #161616;
+	border-width: 1px;
+	border-color: #00000f;
+	border-style: solid;
+	background-image: url(images.jfif);
+    background-position: right bottom;
+	background-repeat: no-repeat;
+}
+section {
+	float: left;
+	width: 33%;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+* {
+	box-sizing: border-box;
+}
+nav {
+	font-weight: bold;
+	font-size: 120%;
+	padding: 1.5em;
+	float: left;
+	width: 160px;
+}
+nav a {
+	text-decoration: none;
+}
+nav ul {
+	margin: 0;
+	padding-left: 0;
+	font-size: 1.2em;
+	list-style: none;
+}
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 140px;
+	padding-right: 5px;
+}
+input, textarea {
+	display: block;
+	margin-bottom: 20px;
+}
+input[type="submit"] {
+	margin-left: 140px;
+}
+nav {
+	font-weight: bold;
+	font-size: 120%;
+	padding: 1.5em;
+	float: left;
+	width: 160px;
+}
+nav ul {
+	margin: 0;
+	padding-left: 0;
+	font-size: 1.3em;
+	list-style: none;
+}
+nav a {
+	text-decoration: none;
+	transition: color 2s linear;
+}
+nav a:link {
+	color: #5C7FA3;
+}
+nav a:visited {
+	color: #ff1919;
+}
+nav a:hover {
+	color: #3205ff;
+}
+header {
+	background-color: #00227100;
+	color: #fd3b3b;
+	height: 120px;
+	padding-top: 30px;
+	padding-left: 3em;
+}
+header a:link {
+	color: #eb3434;
+	text-decoration: none;
+}
+header a:visited {
+	color: #db3333;
+	text-decoration: none;
+}
+header a:hover {
+	color: #00a2ff;
+	text-decoration: none;
+}
+footer {
+	background-color: #ffffff00;
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 2em;
+}
+table {
+	border: 2px solid #3399cc00;
+	border-collapse: collapse;
+	color: #fd3939;
+}
+td, th {
+	padding: 0.5em;
+	border: 2px solid #272525;
+}
+td {
+	text-align: center;
+}
+.text {
+	text-align: left;
+}
+tr:nth-of-type(odd) {
+	background-color: #221919;
+}
+#special {
+	clear: both;
+}
